@@ -1,97 +1,127 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
-<body style="background-color:lightgray">
-	<div id="heading">
-		<h1>Shopping cart</h1>
-		<p>The customer is very important, the customer will be followed by the customer.
-            Now, as an um, I have no rights to be in posession of property.</p>
-	</div>
-	<div id="product" class="container-fluid">
-		<div class="d-flex align-item-start">
-			<img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS8afmoMsTzjWGnkhkcjT0X0anWm2YXAPQQSO9OgDjvVxEqiP7lbb8BbvrRyxzCUq1_VzPcsaoQ_imJsvsB3ydeYoYI7BqkcuLaVs8RUSadDkK3ay_RYimaEmJQbdFDPd6lRX6In0Q6kw&usqp=CAc" class="" alt="15pro" width="80%">
-			<div class="ms-4 flex-grow-1">
-				<h3>I am very sorry</h3>
-				<p>Display: 5 inches
-				<br>RAM: 4GB
-				<br>Memory:32 GB</p>
-			</div>
-			<div class="me-4">
-				<label>Quantity</label>
-				<input type="number" class="form-control" value="0">
-			</div>
+<body class="bg-light">
 
-			<h2>$120</h2>
-		</div>
+    <div class="container py-5">
 
-		<div class="d-flex align-item-start">
-			<img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS8afmoMsTzjWGnkhkcjT0X0anWm2YXAPQQSO9OgDjvVxEqiP7lbb8BbvrRyxzCUq1_VzPcsaoQ_imJsvsB3ydeYoYI7BqkcuLaVs8RUSadDkK3ay_RYimaEmJQbdFDPd6lRX6In0Q6kw&usqp=CAc" class="" alt="15pro" width="80%">
-			<div class="ms-4 flex-grow-1">
-				<h3>I am very sorry</h3>
-				<p>Display: 5 inches
-				<br>RAM: 4GB
-				<br>Memory:32 GB</p>
-			</div>
-			<div class="me-4">
-				<label>Quantity</label>
-				<input type="number" class="form-control" value="0">
-			</div>
+        <section class="block-heading text-center mb-5">
+            <h2>Shopping cart</h2>
+            <p>
+                The customer is very important, the customer will be followed by the customer.
+                Now, as an um, I have no rights to be in possession of property.
+            </p>
+        </section>
 
-			<h2>$120</h2>
-		</div>
+        <div class="row bg-white shadow-sm">
 
-		<div class="d-flex align-item-start">
-			<img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS8afmoMsTzjWGnkhkcjT0X0anWm2YXAPQQSO9OgDjvVxEqiP7lbb8BbvrRyxzCUq1_VzPcsaoQ_imJsvsB3ydeYoYI7BqkcuLaVs8RUSadDkK3ay_RYimaEmJQbdFDPd6lRX6In0Q6kw&usqp=CAc" class="" alt="15pro" width="80%">
-			<div class="ms-4 flex-grow-1">
-				<h3>I am very sorry</h3>
-				<p>Display: 5 inches
-				<br>RAM: 4GB
-				<br>Memory:32 GB</p>
-			</div>
-			<div class="me-4">
-				<label>Quantity</label>
-				<input type="number" class="form-control" value="0">
-			</div>
+            <!-- Products -->
+            <div class="col-lg-8">
 
-			<h2>$120</h2>
-		</div>
-	</div>
+                <div class="product d-flex align-items-start p-4">
+                    <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS8afmoMsTzjWGnkhkcjT0X0anWm2YXAPQQSO9OgDjvVxEqiP7lbb8BbvrRyxzCUq1_VzPcsaoQ_imJsvsB3ydeYoYI7BqkcuLaVs8RUSadDkK3ay_RYimaEmJQbdFDPd6lRX6In0Q6kw&usqp=CAc"
+                        class="img-fluid" alt="Phone">
 
-	<div id="summary" class="col-4 bg-light border-top border-primary border-3 p-4">
-		<h1 class="text-center mb-4">Summary</h1>
-		<p class="d-flex justify-content-between">
-			<span>Subtotal</span>
-			<span>$360</span>
-		</p>
-		<hr>
-		<p class="d-flex justify-content-between">
-            <span>Discount</span>
-            <span>$0</span>
-        </p>
-        <hr>
+                    <div class="ms-4 flex-grow-1">
+                        <h3>I am very sorry</h3>
+                        <p>
+                            Display: 5 inches<br>
+                            RAM: 4GB<br>
+                            Memory: 32GB
+                        </p>
+                    </div>
 
-        <p class="d-flex justify-content-between">
-           <span>Shipping</span>
-           <span>$0</span>
-        </p>
-         <hr>
+                    <div class="me-4">
+                        <label>Quantity:</label>
+                        <input type="number" class="form-control" value="0">
+                    </div>
 
-      <p class="d-flex justify-content-between">
-           <span>Total</span>
-           <span>$360</span>
-      </p>
+                    <h2>$120</h2>
+                </div>
 
-       <button class="btn btn-primary w-100">checkout</button>
-	</div>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+                <div class="product d-flex align-items-start p-4">
+                    <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS8afmoMsTzjWGnkhkcjT0X0anWm2YXAPQQSO9OgDjvVxEqiP7lbb8BbvrRyxzCUq1_VzPcsaoQ_imJsvsB3ydeYoYI7BqkcuLaVs8RUSadDkK3ay_RYimaEmJQbdFDPd6lRX6In0Q6kw&usqp=CAc"
+                        class="img-fluid" alt="Phone">
+
+                    <div class="ms-4 flex-grow-1">
+                        <h3>I am very sorry</h3>
+                        <p>
+                            Display: 5 inches<br>
+                            RAM: 4GB<br>
+                            Memory: 32GB
+                        </p>
+                    </div>
+
+                    <div class="me-4">
+                        <label>Quantity:</label>
+                        <input type="number" class="form-control" value="1">
+                    </div>
+
+                    <h2>$120</h2>
+                </div>
+
+                <div class="product d-flex align-items-start p-4">
+                    <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS8afmoMsTzjWGnkhkcjT0X0anWm2YXAPQQSO9OgDjvVxEqiP7lbb8BbvrRyxzCUq1_VzPcsaoQ_imJsvsB3ydeYoYI7BqkcuLaVs8RUSadDkK3ay_RYimaEmJQbdFDPd6lRX6In0Q6kw&usqp=CAc"
+                        class="img-fluid" alt="Phone">
+
+                    <div class="ms-4 flex-grow-1">
+                        <h3>I am very sorry</h3>
+                        <p>
+                            Display: 5 inches<br>
+                            RAM: 4GB<br>
+                            Memory: 32GB
+                        </p>
+                    </div>
+
+                    <div class="me-4">
+                        <label>Quantity:</label>
+                        <input type="number" class="form-control" value="1">
+                    </div>
+
+                    <h2>$120</h2>
+                </div>
+
+            </div>
+
+            <!-- Summary -->
+            <div class="col-lg-4 summary">
+
+                <h2 class="text-center mb-5">Summary</h2>
+
+                <p class="d-flex justify-content-between border-bottom pb-2">
+                    <span>Subtotal</span>
+                    <span>$360</span>
+                </p>
+
+                <p class="d-flex justify-content-between border-bottom pb-2">
+                    <span>Discount</span>
+                    <span>$0</span>
+                </p>
+
+                <p class="d-flex justify-content-between border-bottom pb-2">
+                    <span>Shipping</span>
+                    <span>$0</span>
+                </p>
+
+                <p class="d-flex justify-content-between">
+                    <span>Total</span>
+                    <span>$360</span>
+                </p>
+
+                <button class="btn btn-primary w-100">
+                    checkout
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
 
 </body>
 
